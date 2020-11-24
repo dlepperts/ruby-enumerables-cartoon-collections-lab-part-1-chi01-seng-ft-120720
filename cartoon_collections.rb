@@ -11,3 +11,5 @@ def list_dwarves(array)
     puts name
   end
 end
+
+list_dwarves(["Hoggle", "Ludo", "Sir Didymus"])
