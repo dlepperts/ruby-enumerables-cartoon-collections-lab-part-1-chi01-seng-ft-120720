@@ -7,7 +7,10 @@ end
 #greet_characters(["Hoggle", "Ludo", "Sir Didymus"])
 
 def list_dwarves(array)
-  # Use `each_with_index` to enumerate over the provided array
-  #
-  # Print a numbered list of each element
+  array.each do |name|
+  index = 0 
+    while index < array.count do
+      number = index + 1
+      puts number + ". " + name
+  end
 end
