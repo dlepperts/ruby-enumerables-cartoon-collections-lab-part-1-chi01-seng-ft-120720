@@ -4,7 +4,7 @@ def greet_characters(array)
   end
 end
 
-greet_characters()
+greet_characters(["Hoggle", "Ludo", "Sir Didymus"])
 
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
